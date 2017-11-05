@@ -1,5 +1,5 @@
 # cumb-AI
-
+- Electro Cuuuuumbiaaaa!!!!
 ## tensorflow-music-generator
 <img src="https://github.com/koflerm/tensorflow-music-generator/blob/master/music.png?raw=true"/>
 </br>
@@ -17,6 +17,13 @@ Original code comes from YouTube, see here: (https://youtu.be/ZE7qWXX05T0)
 
 ## Dependencies
 
+### Create a virtualenv with python 2.7
+
+```bash
+$ virtualenv RBM_ENV --python=python2.7
+$ source RBM_ENV/bin/activate
+```
+
   * [Tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html)
   * pandas
   * numpy
@@ -29,12 +36,13 @@ Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies 
 
 ### Dependencies on Windows with python3
 ```
-    pip3 install pandas
-    pip3 install msgpack-python
-    pip3 install numpy
-    pip3 install glob2
-    pip3 install tqdm
-    pip3 install py-midi
+    pip install pandas
+    pip install msgpack-python
+    pip install numpy
+    pip install glob2
+    pip install tqdm
+    pip install py-midi
+    pip install python-midi
 ```
 
 ## Basic Usage
