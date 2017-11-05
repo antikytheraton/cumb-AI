@@ -1,23 +1,22 @@
 # cumb-AI
 - Electro Cuuuuumbiaaaa!!!!
-## tensorflow-music-generator
-<img src="https://github.com/koflerm/tensorflow-music-generator/blob/master/music.png?raw=true"/>
-</br>
-generates music (midi files) using a Tensorflow RNN
+<!-- ## tensorflow-music-generator
+
+generates music (midi files) using a Tensorflow Restricted Boltzman Machine
 
 Read more about it on  Medium: https://medium.com/@m_ko/deep-learning-with-tensorflow-part-3-music-and-text-generation-370cf37bb071
 
 Hear a demo of the result here:
 https://www.youtube.com/watch?v=5wZIQ9XHNns&feature=youtu.be
+ -->
 
-
-## Overview
-Use TensorFlow to generate short sequences of music with a [Restricted Boltzmann Machine](http://deeplearning4j.org/restrictedboltzmannmachine.html). 
-Original code comes from YouTube, see here: (https://youtu.be/ZE7qWXX05T0)
+## Generador de ritmos de electrocumbia
+<!-- Use TensorFlow to generate short sequences of music with a [Restricted Boltzmann Machine](http://deeplearning4j.org/restrictedboltzmannmachine.html). 
+Original code comes from YouTube, see here: (https://youtu.be/ZE7qWXX05T0) -->
 
 ## Dependencies
 
-### Create a virtualenv with python 2.7
+### Crear un entorno virtual con python 2.7
 
 ```bash
 $ virtualenv RBM_ENV --python=python2.7
@@ -32,9 +31,14 @@ $ source RBM_ENV/bin/activate
   * tqdm 
   * python-midi
   
-Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies (pip install --upgrade ... ) 
+<!-- Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies (pip install --upgrade ... )  -->
 
-### Dependencies on Windows with python3
+### Para instalar las dependencias ejecutar en el entorno
+
+```bash
+pip install -r requirements.txt
+```
+<!-- ### Dependencies on Windows with python3
 ```
     pip install pandas
     pip install msgpack-python
@@ -43,15 +47,17 @@ Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies 
     pip install tqdm
     pip install py-midi
     pip install python-midi
-```
+``` -->
 
-## Basic Usage
-To train the model and create music, simply clone this directory and run
+## Como ejecutarlo
+Para entrenar y generar musica, simplemente ejecutar
 ```
 python rbm_chords.py
 ```
 
-The training data goes in the pop_music_midi folder. You have to use MIDI files. You can find some [here](http://www.midiworld.com/files/).
+La data para entrenar se encuentra dentrol directorio Electro_Cumbia.
+
+<!-- The training data goes in the Electro_Cumbia folder. You have to use MIDI files. You can find some [here](http://www.midiworld.com/files/).
 I have already added pop songs.
 Training will take 5-10 minutes on a modern laptop. The output will be a collection of midi files.
 
@@ -59,5 +65,5 @@ Training will take 5-10 minutes on a modern laptop. The output will be a collect
 
 The credit for this code goes to [dshieble](https://github.com/dshieble) and [llSourcell](https://github.com/llSourcell/Music_Generator_Demo)
 
-Have fun!
+Have fun! -->
 
