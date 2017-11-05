@@ -1,4 +1,6 @@
-# tensorflow-music-generator
+# cumb-AI
+
+## tensorflow-music-generator
 <img src="https://github.com/koflerm/tensorflow-music-generator/blob/master/music.png?raw=true"/>
 </br>
 generates music (midi files) using a Tensorflow RNN
@@ -50,6 +52,4 @@ Training will take 5-10 minutes on a modern laptop. The output will be a collect
 The credit for this code goes to [dshieble](https://github.com/dshieble) and [llSourcell](https://github.com/llSourcell/Music_Generator_Demo)
 
 Have fun!
-# cumb-AI
-# cumb-AI
-# cumb-AI
+
