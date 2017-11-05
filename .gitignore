@@ -1,3 +1,4 @@
 RBM_ENV/
 __pycache__/
 .vscode/
+*.pyc
