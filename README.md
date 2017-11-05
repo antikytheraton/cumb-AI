@@ -1,5 +1,7 @@
-# cumb-AI
+# Cumb-IA
 - Electro Cuuuuumbiaaaa!!!!
+
+![](./Cumb_IA.jpeg)
 <!-- ## tensorflow-music-generator
 
 generates music (midi files) using a Tensorflow Restricted Boltzman Machine
