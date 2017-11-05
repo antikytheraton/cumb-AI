@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+
+
 # This file is heavily based on Daniel Johnson's midi manipulation code in
 # https://github.com/hexahedria/biaxial-rnn-music-composition
 
@@ -33,7 +36,8 @@ def get_songs(path):
     return songs
 
 
-songs = get_songs('Pop_Music_Midi')  # These songs have already been converted from midi to msgpack
+# songs = get_songs('Pop_Music_Midi')  # These songs have already been converted from midi to msgpack
+songs = get_songs('Electro_Cumbia')
 print("{} songs processed".format(len(songs)))
 ###################################################
 
