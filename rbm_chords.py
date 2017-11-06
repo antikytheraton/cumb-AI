@@ -37,7 +37,8 @@ def get_songs(path):
 
 
 # songs = get_songs('Pop_Music_Midi')  # These songs have already been converted from midi to msgpack
-songs = get_songs('Electro_Cumbia')
+# songs = get_songs('Electro_Cumbia')
+songs = get_songs('songs')
 print("{} songs processed".format(len(songs)))
 ###################################################
 
